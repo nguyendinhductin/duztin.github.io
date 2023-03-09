@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/9b19334bcb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Duztin</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="logo">duztin<b>.</b></div>
+        <ul class="navItems">
+          <li><a href="#">home</a></li>
+          <li><a href="#">experiences</a></li>
+          <li><a href="#">skills</a></li>
+        </ul>
+        <div class="links">
+          <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-square-dribbble"></i></a>
+        </div>
+      </nav>
+
+      <div class="wrapper">
+        <div class="cols cols0">
+          <span class="topline">Hello</span>
+          <h1>I'm <span class="multiText"></span></h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus, laborum.
+          </p>
+          <div class="btns">
+            <button>
+              <a href="Nguyen_Dinh_Duc_Tin-CV.pdf" download="CV.pdf"
+                >download CV</a
+              >
+            </button>
+          </div>
+        </div>
+        <div class="cols cols1">
+          <div class="imgbox">
+            <img src="splash.png" alt="" id="splash" />
+            <img src="img.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+      var typingEffect = new Typed(".multiText", {
+        strings: ["coder", "designer"],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1500,
+      });
+    </script>
+  </body>
+</html>
